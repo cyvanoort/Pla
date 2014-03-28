@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">PLAB</string>
+    <string name="action_settings">Instellingen</string>
+    <string name="lng">Lengte</string>
+    <string name="lat">Breedte</string>
+    <string name="lng_coordinaten">Berekenen</string>
+    <string name="lat_coordinaten">Berekenen</string>
+    <string name="get_location">Krijg de huidige locatie</string>
+    <string name="distance">Afstand</string>
+    <string name="distance_calculated">Berekenen</string>
+    <string name="iemi">IMEI</string>
+    <string name="iemi_number">IMEI ophalen</string>
+    <string name="terminate_button">Vernietigen</string>
+    <string name="copyright">Copyright - Duterm Solutions</string>
+    <string name="sql_button">Verzend signaal</string>
+    <string name="sync_boards">Synchroniseer tabel boards</string>
+    <string name="sync_intresses">Synchroniseer tabel intresses</string>
+    <string name="title_activity_home_screen">PLAP</string>
+    <string name="maps">Google maps</string>
+    <string name="settings">Instellingen</string>
+    <string name="facebook">Facebook</string>
+    <string name="info">Informatie</string>
+    <string name="background">Achtergrond</string>
+    <string name="title_activity_intresses">Kies uw intresses</string>
+    <string name="hello_world">Hallo wereld!</string>
+    <string name="intresses_explanation">Selecteer de checkboxes met uw intresses.</string>
+    <string name="save">Opslaan</string>
+    <string name="title_activity_info">Over deze app</string>
+    <string name="about">Over deze app</string>
+    <string name="duterm_solutions">Duterm Solutions</string>
+    <string name="about_us">Wij zijn Duterm Solutions. Ons doel is om de reclame industrie een langetermijn oplossing te geven voor gepersonaliseerde reclame in steden.</string>
+    <string name="version">Versie</string>
+    <string name="version_content">Versie 0.1 vrijgegeven op  27 Jun 2013</string>
+    <string name="changelog">Changelog</string>
+    <string name="changelog_content_1">- Layout geoptimaliseerd</string>
+    <string name="changelog_content_2">- Baterijduur geoptimaliseerd</string>
+    <string name="changelog_content_3">- Intressesscherm toegevoegd</string>
+    <string name="changelog_content_4">- Databasestructuur geupdate</string>
+    <string name="changelog_content_5">- Automatisch syncroniseren naar de achtergrond verplaatst</string>
+    <string name="changelog_content_6">- Services geoptimaliseerd</string>
+    <string name="logo">Logo</string>
+
+</resources>

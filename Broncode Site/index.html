@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>plab</title>
+		<link rel="stylesheet" type="text/css" href="style.css">
+	</head>
+	<body>
+		<script>
+			var i = 0;
+			getUrl();
+
+			function getUrl(){
+				var xmlhttp;
+				if (window.XMLHttpRequest)
+				  {// code for IE7+, Firefox, Chrome, Opera, Safari
+				  xmlhttp=new XMLHttpRequest();
+				  }
+				else
+				  {// code for IE6, IE5
+				  xmlhttp=new ActiveXObject("Microsoft.XMLHTTP");
+				  }
+				xmlhttp.onreadystatechange=function()
+				  {
+				  if (xmlhttp.readyState==4 && xmlhttp.status==200)
+					{
+						var response = '{"JSONObject":'
+						response += xmlhttp.responseText
+						response += '}'
+						
+						var obj = eval ("(" + response + ")");
+						var interval = setInterval(function(){setBackground(obj, interval)},3000);
+					}
+				  }
+				xmlhttp.open("GET","http://plab.carstenoort-pt.com/plab/getUrl.php?id=1",true);
+				xmlhttp.send();
+			}
+			
+			function setBackground(obj, interval){
+					document.getElementById("image").src="/reclame/" + obj.JSONObject[i].url + "";
+					document.getElementById("image").alt="/reclame/" + obj.JSONObject[i].url + "";
+					i++;
+					if(i > 2){
+						clearInterval(interval);
+						i = 0;
+						getUrl();
+					}
+			}
+		</script>
+
+		<div class="main">
+			<img src="" alt="" id="image"> 	
+		</div>
+		<div class="footer">
+			copyright - Duterm Solutions
+		</div>
+	</body>
+</html>

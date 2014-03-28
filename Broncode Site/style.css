@@ -1,0 +1,19 @@
+div.footer{
+	background-color: #3385FF;
+	height: 50px;
+	width: 100%;
+   	position:absolute;
+   	bottom: 0px;
+	margin-left: 0px;
+	text-align:center;
+	vertical-align: middle;
+}
+
+body{
+	background-color: #85B6FF;
+}
+
+img#imgage{
+	width: 500px;
+	
+}

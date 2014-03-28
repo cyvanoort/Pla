@@ -1,0 +1,1 @@
+<?phpinclude 'connect.php';$id = $_POST['id'];$del = mysqli_query($link, 'DELETE FROM Intresses Where id = '.$id) or die('er ging iets mis 1' . mysqli_error($link));header("Location: ../cms/idelete1.php");?>

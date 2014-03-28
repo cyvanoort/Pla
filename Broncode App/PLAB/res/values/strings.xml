@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">PLAB</string>
+    <string name="action_settings">Settings</string>
+    <string name="lng">Longtitude</string>
+    <string name="lat">Latitude</string>
+    <string name="lng_coordinaten">Is calculating</string>
+    <string name="lat_coordinaten">Is calculating</string>
+    <string name="get_location">Get the current location.</string>
+    <string name="distance">Distance</string>
+    <string name="distance_calculated">Is calculating</string>
+    <string name="iemi">IMEI</string>
+    <string name="iemi_number">Getting the number</string>
+    <string name="terminate_button">Terminate</string>
+    <string name="copyright">Copyright - Duterm Solutions</string>
+    <string name="sql_button">Send signal</string>
+    <string name="sync_boards">Sync table boards</string>
+    <string name="sync_intresses">Sync table intresses</string>
+    <string name="title_activity_home_screen">PLAP</string>
+    <string name="maps">Google maps</string>
+    <string name="settings">Settings</string>
+    <string name="facebook">Facebook</string>
+    <string name="info">Information</string>
+    <string name="background">Background</string>
+    <string name="title_activity_intresses">Choose your intersts</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="intresses_explanation">Check the boxes that fit your interests.</string>
+    <string name="save">Save</string>
+    <string name="title_activity_info">About this app</string>
+    <string name="about">About this app</string>
+    <string name="duterm_solutions">Duterm Solutions</string>
+    <string name="about_us">We are Duterm Solutions. Our goal is the give the reclame industrie a long term solution for personalised reclame in city\'s.</string>
+    <string name="version">Version</string>
+    <string name="version_content">Version 0.1 released on Jun 27 2013</string>
+    <string name="changelog">Changelog</string>
+    <string name="changelog_content_1">- Optimized layout</string>
+    <string name="changelog_content_2">- Optimized batery life</string>
+    <string name="changelog_content_3">- Added intrests screen</string>
+    <string name="changelog_content_4">- Updated database structure</string>
+    <string name="changelog_content_5">- Moved automatic sync to background</string>
+    <string name="changelog_content_6">- Optimized services</string>
+    <string name="logo">Logo</string>
+
+</resources>

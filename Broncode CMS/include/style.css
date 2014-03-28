@@ -1,0 +1,15 @@
+#login{
+height: 200px;
+width: 300px;
+background-color: #1f31bb;
+color:#FFFFFF;
+margin: 0 auto;
+margin-top: 200px;
+padding: 40px;
+border-radius: 25%;
+letter-spacing: 1px;
+font-family: 'Oswald', sans-serif;
+font-size: 16px;
+font-weight: 300;
+}
+

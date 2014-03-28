@@ -1,0 +1,1 @@
+<?phpinclude 'connect.php';$id = $_POST['board'];$del = mysqli_query($link, 'DELETE FROM Boards Where id = "'.$id.'"') or die('er ging iets mis 11 ' . mysqli_error($link));echo '<meta http-equiv="refresh" content="5; URL=http://plab.carstenoort-pt.com/cms/pdelete.php">';?>
